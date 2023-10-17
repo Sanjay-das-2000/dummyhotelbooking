@@ -1,0 +1,40 @@
+.header{
+    width: 25vw;
+    margin-left: 8%;
+    padding-top: 1.5%;
+    border-top: 1px solid rgb(82, 82, 82);
+}
+
+.service{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    .service{
+        flex-direction: column;
+    }
+    .icon{
+        font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .icon{
+        font-size: 23px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .icon{
+        font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .icon{
+        font-size: 10px;
+    }
+  }

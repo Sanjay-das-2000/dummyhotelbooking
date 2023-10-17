@@ -1,0 +1,12 @@
+.header{
+    width: 25vw;
+    margin-left: 8%;
+    padding-top: 1.5%;
+    border-top: 1px solid rgb(82, 82, 82);
+}
+
+@media only screen and (min-width: 300px) {
+    .header{
+        width: 35vw;
+    }
+  }
