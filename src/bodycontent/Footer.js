@@ -14,15 +14,8 @@ import {
   FaPinterest,
   FaTiktok,
 } from "react-icons/fa";
-import { BsArrowUp } from "react-icons/bs";
 
 export default function Footer() {
-  const backtoTop = () => {
-    window.scrollTo({
-      top: 0, 
-      behavior: 'smooth'
-    });
-  }
   return (
     <div>
       <Box overflow={"hidden"} backgroundColor="#154360" color="white">
@@ -75,12 +68,6 @@ export default function Footer() {
                 <a href="@">Feedback</a>
               </Text>
             </HStack>
-              {/* <HStack fontSize={["11px", "11px", "12px", "14px"]} ml={"18%"} color="whiteAlpha.800" onClick={backtoTop} cursor="pointer">
-                <Text>Back to top </Text>
-                <Text>
-                  <BsArrowUp size={25} />
-                </Text>
-              </HStack> */}
           </Flex>
         </Box>
       </Box>

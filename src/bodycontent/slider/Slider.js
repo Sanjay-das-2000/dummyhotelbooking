@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import classes from "./Slider.module.css";
-import { Box, Center, Heading, Text } from "@chakra-ui/react";
+import { Box, Center, Text } from "@chakra-ui/react";
 import img1 from "../../media/download1.jfif";
 import img7 from "../../media/download7.jfif";
 import img2 from "../../media/download2.jfif";
